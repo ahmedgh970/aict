@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ## Folder Structure
 ``` 
-AICT
+AICT-main
 │
 ├── conv-charm.py                 # Conv-ChARM Model
 ├── swint-charm.py                # SwinT-ChARM Model
