@@ -25,7 +25,7 @@ Official TensorFlow implementation of [AICT: AN ADAPTIVE IMAGE COMPRESSION TRANS
 Please do not hesitate to open an issue to inform of any problem you may find within this repository. Also, you can [email me](mailto:ahmed.ghorbel888@gmail.com?subject=[GitHub]) for questions or comments. 
 
 ## Documentation
-* This repository is built upon the official TensorFlow implementation of [Channel-Wise Autoregressive Entropy Models for Learned Image Compression](https://ieeexplore.ieee.org/abstract/document/9190935). This baseline is referred to as [Conv-ChARM](https://github.com/ahmedgh970/AICT/blob/main/conv-charm.py)
+* This repository is built upon the official TensorFlow implementation of [Channel-Wise Autoregressive Entropy Models for Learned Image Compression](https://ieeexplore.ieee.org/abstract/document/9190935). This baseline is referred to as [Conv-ChARM](https://github.com/ahmedgh970/AICT/blob/main/conv-charm.py).
 * We provide lightweight versions of the models by removing the latent residual prediction (LRP) transform and slicing latent means and scales, as done in the [Tensorflow reimplementation of SwinT-ChARM](https://github.com/Nikolai10/SwinT-ChARM) from the original paper [TRANSFORMER-BASED TRANSFORM CODING](https://openreview.net/pdf?id=IDwN6xjHnK8).
 * Refer to the [ResizeCompression github repo](https://github.com/treammm/ResizeCompression), as the official implementation of the paper [Estimating the Resize Parameter in End-to-end Learned Image Compression](https://arxiv.org/abs/2204.12022).
 * Refer to the [TensorFlow Compression (TFC) library](https://github.com/tensorflow/compression) to build your own ML models with end-to-end optimized data compression built in.
@@ -77,7 +77,7 @@ Table 1. BD-rate↓ (PSNR) performance of BPG (4:4:4), Conv-ChARM, SwinT-ChARM, 
 
 | Image Codec | Kodak | Tecnick | JPEG-AI | CLIC21 | Average |
 | --- | --- | --- | --- | --- | --- |
-| BPG444 | 22.28% 28.02% 28.37% 28.02% 26.67% |
+| BPG444 | 22.28% | 28.02% | 28.37% | 28.02% | 26.67% |
 | Conv-ChARM | 2.58% | 3.72% | 9.66% | 2.14% | 4.53% |
 | SwinT-ChARM | -1.92% | -2.50% | 2.91% | -3.22% | -1.18% |
 | ICT (ours) | -5.10% | -5.91% | -1.14% | -6.44% | -4.65% |
