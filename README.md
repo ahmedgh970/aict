@@ -19,7 +19,7 @@ Official TensorFlow implementation of [AICT: AN ADAPTIVE IMAGE COMPRESSION TRANS
 <code>Swin Transformer</code> <code>ConvNeXt</code> <code>Adaptive Resolution</code> <code>Neural Codecs</code> <code>Image Compression</code> <code>TensorFlow</code>
 
 ## Overall AICT Framework
-![AICT framework](https://github.com/ahmedgh970/AICT/blob/main/figures/AICT.pdf)
+![AICT framework](https://github.com/ahmedgh970/AICT/blob/main/figures/AICT.png)
 
 ## Disclaimer
 Please do not hesitate to open an issue to inform of any problem you may find within this repository. Also, you can [email me](mailto:ahmed.ghorbel888@gmail.com?subject=[GitHub]) for questions or comments. 
