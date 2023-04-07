@@ -648,7 +648,7 @@ def parse_args(argv):
     help="Path where to log training metrics for TensorBoard and back up "
          "intermediate model checkpoints.")
   train_cmd.add_argument(
-    "--batchsize", type=int, default=1,
+    "--batchsize", type=int, default=8,
     help="Batch size for training and validation.")
   train_cmd.add_argument(
     "--patchsize", type=int, default=256,
