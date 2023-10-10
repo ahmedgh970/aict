@@ -51,9 +51,9 @@ AICT-main
 ├── aict.py                       # AICT Model
 │
 ├── layers/
-│   └── convNext.py/              # ConvNeXt block layers
+│   └── convNext.py               # ConvNeXt block layers
 │   └── swins/                    # Swin Transformer block layers
-│   └── scaleAdaptation.py/       # Scale Adaptation module  layers
+│   └── scaleAdaptation.py        # Scale Adaptation module  layers
 │
 ├── utils.py                      # Utility functions
 ├── config.py                     # Architecture configurations
