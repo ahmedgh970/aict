@@ -87,12 +87,18 @@ Table 1. BD-rate↓ (PSNR) performance of BPG (4:4:4), Conv-ChARM, SwinT-ChARM, 
 ## Citation
 If you use this library for research purposes, please cite:
 ```
-@inproceedings{ghorbel2023aict,
-  title={AICT: AN ADAPTIVE IMAGE COMPRESSION TRANSFORMER},
-  author={Ghorbel, Ahmed and Hamidouche, Wassim and Luce, Morin},
-  booktitle={},
-  year={2023}
+@INPROCEEDINGS{10222799,
+  author={Ghorbel, Ahmed and Hamidouche, Wassim and Morin, Luce},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  title={AICT: An Adaptive Image Compression Transformer}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={126-130},
+  keywords={Video coding;Adaptation models;Visualization;Image coding;Codecs;Transform coding;Benchmark testing;Neural Image Compression;Adaptive Resolution;Spatio-Channel Entropy Modeling;Self-attention;Transformer},
+  doi={10.1109/ICIP49359.2023.10222799}
 }
+
 ```
 
 ## License
