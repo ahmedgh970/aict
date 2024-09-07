@@ -1,4 +1,4 @@
-# AICT: AN ADAPTIVE IMAGE COMPRESSION TRANSFORMER
+# AICT: an Adaptive Image Compression Transformer
 Official TensorFlow implementation of [AICT: AN ADAPTIVE IMAGE COMPRESSION TRANSFORMER](https://ieeexplore.ieee.org/document/10222799) (Accepted in IEEE ICIP 2023).
 
 * [aict](#aict)
