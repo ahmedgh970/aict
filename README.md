@@ -19,7 +19,7 @@ Official TensorFlow implementation of [AICT: AN ADAPTIVE IMAGE COMPRESSION TRANS
 <code>Swin Transformer</code> <code>ConvNeXt</code> <code>Adaptive Resolution</code> <code>Neural Codecs</code> <code>Image Compression</code> <code>TensorFlow</code>
 
 ## Overall AICT Framework
-![AICT framework](https://github.com/ahmedgh970/aict/blob/main/figures/AICT.jpg)
+![AICT framework](https://github.com/ahmedgh970/aict/blob/main/docs/asset/AICT.jpg)
 
 ## Disclaimer
 Please do not hesitate to open an issue to inform of any problem you may find within this repository. Also, you can [email me](mailto:ahmed.ghorbel888@gmail.com?subject=[GitHub]) for questions or comments. 
@@ -58,7 +58,7 @@ aict-main
 ├── utils.py                      # Utility functions
 ├── config.py                     # Architecture configurations
 ├── requirements.txt              # Requirements
-└── figures/                      # Documentation figures
+└── docs/asset                    # Overall model diagram
 ```
 
 ## CLI Usage
@@ -71,8 +71,6 @@ python aict.py evaluate --test_dir [-I] --tfci_output_dir [-O] --png_output_dir 
 ```
 
 ## Rate-Distortion coding performance
-![Rate-Distortion coding performance on KODAK](https://github.com/ahmedgh970/aict/blob/main/figures/rd_performance.png)
-
 Table 1. BD-rate↓ (PSNR) performance of BPG (4:4:4), Conv-ChARM, SwinT-ChARM, ICT, and AICT compared to the VTM-18.0 for the four considered datasets.
 
 | Image Codec | Kodak | Tecnick | JPEG-AI | CLIC21 | Average |
